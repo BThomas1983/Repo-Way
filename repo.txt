@@ -1,0 +1,10 @@
+Local repository:
+1.	git init – lokális repository létrehozása (.git rejtett fájl jön létre)
+2.	git config –local user.name „”
+3.	git config – local user.email „”
+4.	git add fájlnév (snapshot, staging areaba kerül a fájl)
+5.	git commit fájlnév -m „változtatás kommentje” (a staging areaban lévő fájl elhelyezése a lokális repsitory-ban) 
+Remote repository:
+1.	Github repository létrehozása, https cím másolása
+2.	git remote add origin link(lokális és távoli repository összekötése)
+3.	git push -u origin master
